@@ -4,7 +4,7 @@
 
 def buy_tickets(remaining):
     # Ask the buyer how many tickets they want
-    tickets_requested = int(input("How many tickets would you like (1–4)? "))
+    tickets_requested = int(input(" Please enter how many tickets you want to purchase (1–4): "))
 
     # Check if valid (cannot exceed 4 or available tickets)
     if tickets_requested < 1 or tickets_requested > 4:
