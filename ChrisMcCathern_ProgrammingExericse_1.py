@@ -23,7 +23,7 @@ def buy_tickets(remaining):
 
 # Function to run the ticket pre-sale system
 def ticket_presale():
-    total_tickets = 20
+    total_tickets = 10
     buyers = 0  # accumulator
 
     print("🎬 Welcome to the Cinema Ticket Presale!")
