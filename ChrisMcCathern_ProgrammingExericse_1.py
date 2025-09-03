@@ -24,7 +24,7 @@ def buy_tickets(remaining):
 # Function to run the ticket pre-sale system
 def ticket_presale():
     total_tickets = 10
-    buyers = 0  # accumulator
+    customer_count = 0  # accumulator
 
     print("🎬 Welcome to the Cinema Ticket Presale!")
     print("Maximum 4 tickets per buyer. Only 10 tickets available.\n")
@@ -32,10 +32,10 @@ def ticket_presale():
     # Loop until tickets are gone
     while total_tickets > 0:
         buyer_count, total_tickets = buy_tickets(total_tickets)
-        buyers += buyer_count  # accumulate number of buyers
+        customer_count += buyer_count 
 
     print("\n🎟️ All tickets have been sold!")
-    print(f"Total buyers: {buyers}")
+    print(f"Total buyers: {customer_count}")
 
 
 # Run the program
