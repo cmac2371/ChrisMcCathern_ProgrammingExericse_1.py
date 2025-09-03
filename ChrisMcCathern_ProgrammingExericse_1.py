@@ -27,7 +27,7 @@ def ticket_presale():
     buyers = 0  # accumulator
 
     print("🎬 Welcome to the Cinema Ticket Presale!")
-    print("Maximum 4 tickets per buyer. Only 20 tickets available.\n")
+    print("Maximum 4 tickets per buyer. Only 10 tickets available.\n")
 
     # Loop until tickets are gone
     while total_tickets > 0:
